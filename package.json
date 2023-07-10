@@ -1,0 +1,23 @@
+{
+  "name": "graphql-blog",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Curious <curious.startpro@gmail.com> (https://t.me/curious_33)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "express-graphql": "0.12.0",
+    "graphql": "16.7.1",
+    "mongoose": "7.3.1",
+    "uuid": "9.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
